@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\android\\BluetoothSerial-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\app_icon.png",
+        "source": "D:\\android\\BluetoothSerial-master\\app\\src\\main\\res\\drawable\\app_icon.png"
+    },
+    {
+        "merged": "D:\\android\\BluetoothSerial-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg.jpg",
+        "source": "D:\\android\\BluetoothSerial-master\\app\\src\\main\\res\\drawable\\bg.jpg"
+    }
+]

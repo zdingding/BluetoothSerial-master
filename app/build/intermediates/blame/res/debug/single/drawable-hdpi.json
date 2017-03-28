@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\android\\BluetoothSerial-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\app_icon.png",
+        "source": "D:\\android\\BluetoothSerial-master\\app\\src\\main\\res\\drawable-hdpi\\app_icon.png"
+    },
+    {
+        "merged": "D:\\android\\BluetoothSerial-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "D:\\android\\BluetoothSerial-master\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    }
+]

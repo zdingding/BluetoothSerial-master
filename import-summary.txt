@@ -1,0 +1,56 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .gitignore
+* LICENSE
+* README.md
+* arduino_pro\
+* arduino_pro\HC05\
+* arduino_pro\HC05\Examples\
+* arduino_pro\HC05\Examples\changeName\
+* arduino_pro\HC05\Examples\changeName\changeName.ino
+* arduino_pro\HC05\Examples\echo\
+* arduino_pro\HC05\Examples\echo\echo.ino
+* arduino_pro\HC05\Examples\hc05_test\
+* arduino_pro\HC05\Examples\hc05_test\hc05_test.ino
+* arduino_pro\HC05\HC05.cpp
+* arduino_pro\HC05\HC05.h
+* arduino_pro\HC05\Readme.txt
+* arduino_pro\README.md
+* arduino_pro\bluetooth_mcu_press_test\
+* arduino_pro\bluetooth_mcu_press_test\bluetooth_mcu_press_test.ino
+* arduino_pro\bluetooth_mcu_recv\
+* arduino_pro\bluetooth_mcu_recv\bluetooth_mcu_recv.ino
+* arduino_pro\bluetooth_mcu_send\
+* arduino_pro\bluetooth_mcu_send\bluetooth_mcu_send.ino
+* ic_launcher-web.png
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
