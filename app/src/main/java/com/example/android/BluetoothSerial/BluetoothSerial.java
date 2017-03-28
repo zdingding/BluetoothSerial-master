@@ -48,18 +48,18 @@ public class BluetoothSerial extends Activity {
     private static final String TAG = "BluetoothChat";
     private static final boolean D = true;
 
-    // Message types sent from the BluetoothChatService Handler
+    // 消息类型从BluetoothChatService发送处理程序
     public static final int MESSAGE_STATE_CHANGE = 1;
     public static final int MESSAGE_READ = 2;
     public static final int MESSAGE_WRITE = 3;
     public static final int MESSAGE_DEVICE_NAME = 4;
     public static final int MESSAGE_TOAST = 5;
 
-    // Key names received from the BluetoothChatService Handler
+    // 关键的名字从BluetoothChatService接收处理程序
     public static final String DEVICE_NAME = "device_name";
     public static final String TOAST = "toast";
 
-    // Intent request codes
+    // Intent 请求代码
     private static final int REQUEST_CONNECT_DEVICE = 1;
     private static final int REQUEST_ENABLE_BT = 2;
 
@@ -94,7 +94,7 @@ public class BluetoothSerial extends Activity {
         mTitle.setText(R.string.app_name);
         mTitle = (TextView) findViewById(R.id.title_right_text);
 
-        // Get local Bluetooth adapter
+        // 获取本地蓝牙适配器
         mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
 
         // If the adapter is null, then Bluetooth is not supported
